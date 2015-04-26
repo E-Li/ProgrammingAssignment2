@@ -19,7 +19,10 @@ list(set = set, get = get,
 }
 
 
-## This function will retrieve the cached matrix from makeCacheMatrix ##and invert it. Then it will cache the result. If the inverse is ##already cached, then it will print a message and retrieve the ##cached result instead.
+## This function will retrieve the cached matrix from makeCacheMatrix
+## and invert it. Then it will cache the result. If the inverse is
+## already cached, then it will print a message and retrieve the
+## cached result instead.
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
